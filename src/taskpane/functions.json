@@ -1,0 +1,22 @@
+{
+    "functions": [
+        {
+            "description": "sum 2 nums",
+            "id": "getTMRR",
+            "name": "getTMRR",
+            "parameters": [
+                {
+                    "description": "first num",
+                    "name": "first",
+                    "type": "any"
+                },
+                {
+                    "description": "second num",
+                    "name": "second",
+                    "type": "any"
+                }
+            ],
+            "result": {}
+        }
+    ]
+}

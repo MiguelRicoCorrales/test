@@ -1,0 +1,95 @@
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ms-welcome__header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4; /* Cambiar color de fondo */
+}
+
+.ms-welcome__header img {
+  width: 220px;
+  height: 127px;
+}
+
+.ms-font-su {
+  font-size: 32px;
+  margin-top: 10px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: bold; /* Cambiar el peso de la fuente */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font: 1rem 'Fira Sans', sans-serif;
+}
+
+input[type="text"],
+select,
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 800px;
+  }
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.listSats,
+.listSelected {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  overflow-y: scroll;
+  height: 5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.listContainer > button {
+  display: block;
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.import-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

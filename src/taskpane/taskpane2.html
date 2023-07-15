@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="importTM.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/Office.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
+    <link
+      rel="stylesheet"
+      href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="ms-welcome__header ms-bgColor-neutralLighter">
+        <img width="220" height="127" src="../../assets/gmv.jpg" title="gmv" />
+        <h1 class="ms-font-su">Hifly4Office</h1>
+      </header>
+
+      <label for="satellite">Satellite:</label>
+      <select id="satellite"></select>
+      <br />
+
+      <label for="paramSelect">Param. Select:</label>
+      <input type="text" id="paramSelect" placeholder="Enter Parameter" />
+      <br />
+
+      <div class="listContainer">
+        <div class="listSats">
+          <ul id="sourceList"></ul>
+        </div>
+
+        <div class="buttons">
+          <button id="moveRight">→</button>
+          <br />
+          <button id="moveLeft">←</button>
+        </div>
+
+        <div class="listSelected">
+          <ul id="targetList"></ul>
+        </div>
+      </div>
+
+      <label for="level">Level:</label>
+      <select id="level">
+        <option value="">Select Level</option>
+      </select>
+      <br />
+
+      <label for="start">Start:</label>
+      <input type="datetime-local" id="startDate" />
+      <br />
+
+      <label for="end">End:</label>
+      <input type="datetime-local" id="endDate" />
+      <br />
+
+      <label>
+        <!-- Input oculto -->
+        <input type="checkbox" name="header" id="headerCheckbox" />
+        <!-- Texto -->
+        <span>Show Header</span>
+      </label>
+      <br />
+      <button class="import-button">Import</button>
+    </div>
+  </body>
+</html>
