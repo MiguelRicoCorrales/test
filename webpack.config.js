@@ -20,7 +20,6 @@ module.exports = async (env, options) => {
       polyfill: ["core-js/stable", "regenerator-runtime/runtime"],
       taskpane: ["./src/taskpane/taskpane.js", "./src/taskpane/config.html"],
       importTM: ["./src/taskpane/importTM.js", "./src/taskpane/taskpane2.html"],
-      commands: "./src/commands/commands.js",
       functions: "./src/taskpane/functions.js",
 
     },

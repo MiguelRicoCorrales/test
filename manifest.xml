@@ -125,8 +125,8 @@
         <bt:Url id="Taskpane.Url" DefaultValue="http://localhost:3000/config.html"/>
         <bt:Url id="Taskpane2.Url" DefaultValue="http://localhost:3000/taskpane2.html"/>
         <bt:Url id="ErrorDialogUrl" DefaultValue="http://localhost:3000/errorDialog.html"/>
-        <bt:Url id="functions.Url" DefaultValue="http://localhost:3000/functions.js"/>
-        <bt:Url id="Functions.Metadata.Url" DefaultValue="http://localhost:3000/functions.json"/>
+        <bt:Url id="functions.Url" DefaultValue="http://localhost:3000/src/taskpane/functions.js"/>
+        <bt:Url id="Functions.Metadata.Url" DefaultValue="http://localhost:3000/src/taskpane/functions.json"/>
 
       </bt:Urls>
       <bt:ShortStrings>
